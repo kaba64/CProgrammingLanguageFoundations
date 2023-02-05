@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void){
+  char first[101], second[101];
+  int number;
+  int i;
+  scanf("%d",&number);
+  for(i=0;i<number;i++){
+    scanf("%s %s", first, second);
+    printf("%s %s\n", second, first);
+  }
+  return 0;
+}

@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1550690007 source:/home/ka/Documents/code: Numerical methods for conservation laws/Chapter 5: Finite difference methods/6:  Repeating using a WHILE loop/main.c
+	<stdio.h>
+

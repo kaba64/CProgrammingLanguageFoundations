@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void){
+  int expense, sum;
+  scanf("%d",&expense);
+  while(expense>=0){
+    sum = sum + expense;
+    scanf("%d",&expense);
+  }
+  printf("%d\n",sum);
+  return 0;
+}

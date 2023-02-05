@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void){
+  int population;
+  int day=1, effected=1;
+  scanf("%d",&population);
+  while(effected<=population){
+    day++;
+    effected = 2*effected;
+  }
+  return 0;
+}
